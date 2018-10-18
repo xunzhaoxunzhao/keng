@@ -1,0 +1,701 @@
+2018-10-17 17:59:04,576 - fance.log.longger - INFO : 登录中..
+2018-10-17 17:59:04,583 - fance.log.longger - INFO : 参数是{'unionid': 'ofQWl1A_nOac1Wr674DT2kK51pW8', 'ul_type': '1', 'openid': 'o8afQ0sWMOWc7WclUhRJQyT4nttc', 'nickname': '点点点'}
+2018-10-17 17:59:04,890 - fance.log.longger - INFO : 已进行请求等待相应
+2018-10-17 17:59:04,894 - fance.log.longger - INFO : 等待json解析
+2018-10-17 17:59:04,898 - fance.log.longger - INFO : 获取token91831e20da0fe5f97a38f601b377ed64
+2018-10-17 17:59:04,920 - fance.log.longger - INFO : 写入token
+2018-10-17 17:59:04,924 - fance.log.longger - INFO : 数据库参数配置{'host': '193.112.157.157', 'port': 3306, 'user': 'root', 'password': 'xiaoheiban123..', 'database': 'fsxq_pub', 'charset': 'utf8'}
+2018-10-17 17:59:04,966 - fance.log.longger - INFO : 已连接数据库
+2018-10-17 17:59:04,969 - fance.log.longger - INFO : 获取游标
+2018-10-17 17:59:04,981 - fance.log.longger - INFO : 执行sql语句
+2018-10-17 17:59:04,986 - fance.log.longger - INFO : 提交数据
+2018-10-17 17:59:04,991 - fance.log.longger - INFO : 关闭数据库
+2018-10-17 17:59:04,997 - fance.log.longger - INFO : 数据库参数配置{'host': '193.112.157.157', 'port': 3306, 'user': 'root', 'password': 'xiaoheiban123..', 'database': 'fsxq_pub', 'charset': 'utf8'}
+2018-10-17 17:59:05,040 - fance.log.longger - INFO : 已连接数据库
+2018-10-17 17:59:05,043 - fance.log.longger - INFO : 获取游标
+2018-10-17 17:59:05,053 - fance.log.longger - INFO : 执行sql语句
+2018-10-17 17:59:05,056 - fance.log.longger - INFO : 提交数据
+2018-10-17 17:59:05,058 - fance.log.longger - INFO : 关闭数据库
+2018-10-17 17:59:05,210 - fance.log.longger - INFO : 结果写入完毕
+2018-10-17 17:59:05,313 - fance.log.longger - INFO : 结果写入完毕
+2018-10-17 17:59:05,318 - fance.log.longger - INFO : 打开数据文件:<xlrd.book.Book object at 0x039935F0>
+2018-10-17 17:59:05,320 - fance.log.longger - INFO : 读取表单名:<xlrd.sheet.Sheet object at 0x039BBE30>
+2018-10-17 17:59:05,321 - fance.log.longger - INFO : 读取行数:70
+2018-10-17 17:59:05,322 - fance.log.longger - INFO : 读取token:91831e20da0fe5f97a38f601b377ed64
+2018-10-17 17:59:05,323 - fance.log.longger - INFO : 将token赋值给excel中相应的数据
+2018-10-17 17:59:05,324 - fance.log.longger - INFO : 读取用例名称:加入星球(信息),路径:/v1.2/groups/3181286325/examine,请求方式:data,请求内容 :{'intro': '1'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,326 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,327 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286325/examine
+2018-10-17 17:59:05,328 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:05,361 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '你的申请已通过，请勿重复提交', 'info': [], 'id': '15397703453576', 'time': 0.014677047729492188}
+2018-10-17 17:59:05,364 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,367 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:05,370 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:05,372 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:05,374 - fance.log.longger - INFO : 共有69个url，当前执行1个
+2018-10-17 17:59:05,377 - fance.log.longger - INFO : 读取用例名称:加入星球（图片）,路径:/v1.2/groups/3181286025/examine,请求方式:data,请求内容 :{'image': '3062927825'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,379 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,381 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286025/examine
+2018-10-17 17:59:05,384 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:05,417 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '已有审批在申请中，请勿重复提交', 'info': [], 'id': '15397703454156', 'time': 0.014366865158081055}
+2018-10-17 17:59:05,419 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,421 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:05,423 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:05,426 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:05,428 - fance.log.longger - INFO : 共有69个url，当前执行2个
+2018-10-17 17:59:05,430 - fance.log.longger - INFO : 读取用例名称:加入星球（问题）,路径:/v1.2/groups/3181286125/examine,请求方式:data,请求内容 :{'answer': '帅'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,433 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,435 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286125/examine
+2018-10-17 17:59:05,437 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:05,473 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '你的申请已通过，请勿重复提交', 'info': [], 'id': '15397703454693', 'time': 0.01330113410949707}
+2018-10-17 17:59:05,474 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,476 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:05,477 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:05,478 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:05,479 - fance.log.longger - INFO : 共有69个url，当前执行3个
+2018-10-17 17:59:05,480 - fance.log.longger - INFO : 读取用例名称:星球列表 -  加入审核中星球列表,路径:/v1.2/groups/examine,请求方式:params,请求内容 :{'limit': '10'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,481 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,482 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/examine
+2018-10-17 17:59:05,483 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,516 - fance.log.longger - INFO : 请求结果:{'id': '15397703455135', 'result': True, 'msg': '', 'info': {'total': 1, 'list': [{'id': '3181286025', 'name': '接口图片', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png'}]}, 'time': 0.01615309715270996}
+2018-10-17 17:59:05,517 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,519 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:05,520 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:05,521 - fance.log.longger - INFO : 共有69个url，当前执行4个
+2018-10-17 17:59:05,523 - fance.log.longger - INFO : 读取用例名称:加入星球,路径:/v1.2/groups/3181286225/join,请求方式:data,请求内容 :{'inviter_id': ''},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,524 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,526 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286225/join
+2018-10-17 17:59:05,527 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:05,585 - fance.log.longger - INFO : 请求结果:{'id': '15397703455828', 'result': True, 'msg': '', 'info': [], 'time': 0.04213881492614746}
+2018-10-17 17:59:05,586 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,587 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:05,588 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:05,590 - fance.log.longger - INFO : 共有69个url，当前执行5个
+2018-10-17 17:59:05,591 - fance.log.longger - INFO : 读取用例名称:星球列表,路径:/v1.2/groups/default,请求方式:params,请求内容 :{'limit': '10'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,593 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,594 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/default
+2018-10-17 17:59:05,595 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,664 - fance.log.longger - INFO : 请求结果:{'id': '15397703456609', 'result': True, 'msg': '', 'info': {'groups': [{'sort': '1538235359', 'type': '3', 'id': '3181828625', 'name': '帮助与反馈', 'sn': '1888800', 'background': {'preview': 'https://file.fensixingqiu.com/Public/HLogo.png', 'mini': 'https://file.fensixingqiu.com/Public/HLogo.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '3181828625', 'name': '董事长的铲屎官', 'avatar': 'https://file.fensixingqiu.com/Public/HLogo.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1538235359', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539770345', 'type': '0', 'id': '3181286225', 'name': '接口免费误动数据', 'sn': '89340828', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539770345', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539655425', 'type': '0', 'id': '3181286125', 'name': '接口问题', 'sn': '89346293', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539655425', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539653117', 'type': '0', 'id': '3181519125', 'name': '2222222222', 'sn': '89416972', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539653117', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539609106', 'type': '0', 'id': '3181518425', 'name': '123', 'sn': '89415213', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539609106', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539608715', 'type': '0', 'id': '3181518525', 'name': '验证问题', 'sn': '89413138', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539608715', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539606455', 'type': '0', 'id': '3181518725', 'name': '验证', 'sn': '89409516', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539606455', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539605638', 'type': '0', 'id': '3181518025', 'name': '问题来吗', 'sn': '89407421', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539605638', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539604938', 'type': '0', 'id': '3181518125', 'name': '151', 'sn': '89406195', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539604938', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}, {'sort': '1539592076', 'type': '0', 'id': '3181286325', 'name': '接口信息审核', 'sn': '89343256', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png'}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_member': True, 'member_info': {'is_valid': True, 'join_time': '1539592076', 'unread_count': 0}}, 'category': {'id': '3181888825', 'title': '种子星球'}}], 'examine_count': 1}, 'time': 0.04256296157836914}
+2018-10-17 17:59:05,669 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,670 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:05,671 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:05,672 - fance.log.longger - INFO : 共有69个url，当前执行6个
+2018-10-17 17:59:05,673 - fance.log.longger - INFO : 读取用例名称:星球搜索,路径:/v1.2/groups/search,请求方式:params,请求内容 :{'limit': '10', 'pattern': '1', 'is_joined': '0'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,674 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,675 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/search
+2018-10-17 17:59:05,675 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,724 - fance.log.longger - INFO : 请求结果:{'id': '15397703457207', 'result': True, 'msg': '', 'info': {'total': 85, 'groups': [{'type': '1', 'id': '3181518925', 'name': '10-16！！！', 'sn': '89420317', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686', 'mini': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495125', 'name': '20', 'avatar': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686'}}, {'type': '0', 'id': '3181519025', 'name': '一二三四五六七八九十', 'sn': '89418213', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686', 'mini': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495125', 'name': '20', 'avatar': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686'}}, {'type': '0', 'id': '3181518625', 'name': '1', 'sn': '89410837', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png'}}, {'type': '1', 'id': '3181518325', 'name': '收钱，验证一百五', 'sn': '89401993', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png'}}, {'type': '0', 'id': '3181512025', 'name': '123', 'sn': '89396612', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686', 'mini': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495125', 'name': '20', 'avatar': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686'}}, {'type': '1', 'id': '3181512425', 'name': 'BA003付费回答', 'sn': '89394611', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686', 'mini': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9553495125', 'name': '20', 'avatar': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686'}}, {'type': '0', 'id': '3181512925', 'name': 'AA001免费回答', 'sn': '89392860', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c', 'mini': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9529496425', 'name': '呵呵哒', 'avatar': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c'}}, {'type': '0', 'id': '3181513025', 'name': '测试一下下', 'sn': '89391935', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c', 'mini': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9529496425', 'name': '呵呵哒', 'avatar': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c'}}, {'type': '0', 'id': '3181513125', 'name': '测试一下', 'sn': '89390122', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c', 'mini': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9529496425', 'name': '呵呵哒', 'avatar': 'https://file.fensixingqiu.com/portrait/bbff9fdd605c1db2e2bf8fa09d667b3c'}}, {'type': '1', 'id': '3181512525', 'name': 'bb00付费信息', 'sn': '89386531', 'background': {'preview': 'https://file.fensixingqiu.com/portrait/dca42850f193569f35e0bc8ff3ec9fad', 'mini': 'https://file.fensixingqiu.com/portrait/dca42850f193569f35e0bc8ff3ec9fad?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533954825', 'name': 'what', 'avatar': 'https://file.fensixingqiu.com/portrait/dca42850f193569f35e0bc8ff3ec9fad'}}]}, 'time': 0.03139090538024902}
+2018-10-17 17:59:05,728 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,729 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:05,730 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:05,731 - fance.log.longger - INFO : 共有69个url，当前执行7个
+2018-10-17 17:59:05,732 - fance.log.longger - INFO : 读取用例名称:星球搜索,路径:/v1.2/groups/search,请求方式:params,请求内容 :{'limit': '10', 'pattern': '1', 'is_joined': '1'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,733 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,734 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/search
+2018-10-17 17:59:05,735 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,783 - fance.log.longger - INFO : 请求结果:{'id': '15397703457795', 'result': True, 'msg': '', 'info': {'total': 29, 'groups': [{'type': '0', 'id': '3181519125', 'name': '2222222222', 'sn': '89416972', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181518425', 'name': '123', 'sn': '89415213', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181518525', 'name': '验证问题', 'sn': '89413138', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181518725', 'name': '验证', 'sn': '89409516', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181518025', 'name': '问题来吗', 'sn': '89407421', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181518125', 'name': '151', 'sn': '89406195', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '1', 'id': '3181519625', 'name': '嘟嘟嘟', 'sn': '89378714', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181508725', 'name': '147258', 'sn': '89364485', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '1', 'id': '3181508125', 'name': '123456', 'sn': '89361146', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, {'type': '0', 'id': '3181508325', 'name': '这是星球的名字', 'sn': '89357118', 'background': {'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png?imageView2/1/w/300/h/300'}, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}, 'owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}]}, 'time': 0.02934098243713379}
+2018-10-17 17:59:05,787 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,788 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:05,788 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:05,789 - fance.log.longger - INFO : 共有69个url，当前执行8个
+2018-10-17 17:59:05,790 - fance.log.longger - INFO : 读取用例名称:星球详情,路径:/v1.2/groups/3181286225,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,792 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,793 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286225
+2018-10-17 17:59:05,794 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,838 - fance.log.longger - INFO : 请求结果:{'id': '1539770345835', 'result': True, 'msg': '', 'info': {'id': '3181286225', 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'is_active': True}, 'type': '0', 'name': '接口免费误动数据', 'description': '不要动此星球', 'create_time': '1539402072', 'service_mode': '1', 'valid_month': '12', 'cost': '0', 'sn': '89340828', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'cover_url': '', 'category': {'id': '3181888825', 'title': '种子星球'}, 'group_level': '1', 'group_status': '1', 'limit_num': 150, 'policies': {'allow_sharing': '1', 'allow_private_chat': '1', 'need_examine': '0', 'allow_anonymous_question': '1', 'silence_new_member': '1', 'create_topic': '0', 'members_visibility': '1', 'join_notice': '你好，我是星主帅气的小牛，欢迎加入「接口免费误动数据」，希望大家多在星球里沟通。', 'user_introduction': '', 'create_topic_in_day': '0', 'forbid_share': '0', 'join_question': '', 'examine_type': '0', 'examine_status': 5, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}}, 'statistics': {'digests_count': 0, 'member_num': 3, 'admin_num': 0, 'guest_num': 1, 'topics_count': 0, 'answers_count': 0, 'video_count': 0, 'voice_count': 0}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_bound_phone': True, 'is_removed': False, 'is_member': True, 'member_info': {'be_guest_notice': False, 'is_valid': True, 'is_guest': False, 'join_time': '1539770345', 'join_group_one_day': False, 'identity': '0', 'is_black': '0', 'valid_time': '1570874345', 'remind_days': 360, 'alarm_days': 7, 'watermark': '0', 'current_time': '1539770345', 'accept_message_notifications': '1', 'weixin': {'subscribe': True}}}}, 'time': 0.027270078659057617}
+2018-10-17 17:59:05,842 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,890 - fance.log.longger - INFO : 请求结果:{'id': '15397703458856', 'result': True, 'msg': '', 'info': {'id': '3181286225', 'owner': {'id': '9553495425', 'name': '帅气的小牛', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'is_active': True}, 'type': '0', 'name': '接口免费误动数据', 'description': '不要动此星球', 'create_time': '1539402072', 'service_mode': '1', 'valid_month': '12', 'cost': '0', 'sn': '89340828', 'background': {'preview': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'mini': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png?imageView2/1/w/300/h/300'}, 'cover_url': '', 'category': {'id': '3181888825', 'title': '种子星球'}, 'group_level': '1', 'group_status': '1', 'limit_num': 150, 'policies': {'allow_sharing': '1', 'allow_private_chat': '1', 'need_examine': '0', 'allow_anonymous_question': '1', 'silence_new_member': '1', 'create_topic': '0', 'members_visibility': '1', 'join_notice': '你好，我是星主帅气的小牛，欢迎加入「接口免费误动数据」，希望大家多在星球里沟通。', 'user_introduction': '', 'create_topic_in_day': '0', 'forbid_share': '0', 'join_question': '', 'examine_type': '0', 'examine_status': 5, 'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}}, 'statistics': {'digests_count': 0, 'member_num': 3, 'admin_num': 0, 'guest_num': 1, 'topics_count': 0, 'answers_count': 0, 'video_count': 0, 'voice_count': 0}, 'current_user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_bound_phone': True, 'is_removed': False, 'is_member': True, 'member_info': {'be_guest_notice': False, 'is_valid': True, 'is_guest': False, 'join_time': '1539770345', 'join_group_one_day': False, 'identity': '0', 'is_black': '0', 'valid_time': '1570874345', 'remind_days': 360, 'alarm_days': 7, 'watermark': '0', 'current_time': '1539770345', 'accept_message_notifications': '1', 'weixin': {'subscribe': True}}}}, 'time': 0.023602008819580078}
+2018-10-17 17:59:05,893 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:05,896 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:05,898 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:05,900 - fance.log.longger - INFO : 共有69个url，当前执行9个
+2018-10-17 17:59:05,903 - fance.log.longger - INFO : 读取用例名称:提问 - 回答者列表,路径:/v1.2/groups/3181286225/users/answerer_list,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:05,906 - fance.log.longger - INFO : 0
+2018-10-17 17:59:05,908 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286225/users/answerer_list
+2018-10-17 17:59:05,911 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:05,960 - fance.log.longger - INFO : 请求结果:{'id': '15397703459528', 'result': True, 'msg': '', 'info': {'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '0', 'name': '哒哒哒', 'join_time': '1539770345', 'is_guest': False, 'is_black': False}, 'list': [{'guest_id': '-1', 'user_introduction': '', 'answer_num': 0, 'user': {'id': '9553495425', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'identity': '2', 'name': '帅气的小牛', 'join_time': '1539402072', 'is_guest': False, 'is_black': False}}, {'guest_id': '3058507725', 'user_introduction': '', 'answer_num': 0, 'user': {'id': '9553495125', 'avatar': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686', 'identity': '0', 'name': '20', 'join_time': '1539405417', 'is_guest': True, 'is_black': False}}]}, 'time': 0.0222930908203125}
+2018-10-17 17:59:05,963 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,004 - fance.log.longger - INFO : 请求结果:{'id': '15397703459997', 'result': True, 'msg': '', 'info': {'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '0', 'name': '哒哒哒', 'join_time': '1539770345', 'is_guest': False, 'is_black': False}, 'list': [{'guest_id': '-1', 'user_introduction': '', 'answer_num': 0, 'user': {'id': '9553495425', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'identity': '2', 'name': '帅气的小牛', 'join_time': '1539402072', 'is_guest': False, 'is_black': False}}, {'guest_id': '3058507725', 'user_introduction': '', 'answer_num': 0, 'user': {'id': '9553495125', 'avatar': 'https://file.fensixingqiu.com/portrait/c4e2c9bc1ac41035dd0ae02ae44fc686', 'identity': '0', 'name': '20', 'join_time': '1539405417', 'is_guest': True, 'is_black': False}}]}, 'time': 0.020138978958129883}
+2018-10-17 17:59:06,005 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,006 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,008 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,009 - fance.log.longger - INFO : 共有69个url，当前执行10个
+2018-10-17 17:59:06,011 - fance.log.longger - INFO : 读取用例名称:提问 - TA的回答 - 列表（接口免验证）,路径:/v1.2/groups/3181286225/users/3181346525/answers,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,012 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,013 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286225/users/3181346525/answers
+2018-10-17 17:59:06,014 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,049 - fance.log.longger - INFO : 请求结果:{'id': '15397703460454', 'result': True, 'msg': '', 'info': {'group': {'id': '3181286225', 'name': '接口免费误动数据'}, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '0', 'name': '哒哒哒', 'join_time': '1539770345', 'is_guest': False, 'is_black': False}, 'list': []}, 'time': 0.01721787452697754}
+2018-10-17 17:59:06,050 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,085 - fance.log.longger - INFO : 请求结果:{'id': '15397703460813', 'result': True, 'msg': '', 'info': {'group': {'id': '3181286225', 'name': '接口免费误动数据'}, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '0', 'name': '哒哒哒', 'join_time': '1539770345', 'is_guest': False, 'is_black': False}, 'list': []}, 'time': 0.014866113662719727}
+2018-10-17 17:59:06,087 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,088 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,090 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,091 - fance.log.longger - INFO : 共有69个url，当前执行11个
+2018-10-17 17:59:06,093 - fance.log.longger - INFO : 读取用例名称:星球首页 - 更换背景图(接口勿扰),路径:/v1.2/groups/3181285925/cover,请求方式:data,请求内容 :{'cover_id': '3062632825'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,094 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,096 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/cover
+2018-10-17 17:59:06,097 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:06,144 - fance.log.longger - INFO : 请求结果:{'id': '15397703461418', 'result': True, 'msg': '', 'info': {'group': {'cover_url': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, 'time': 0.027667999267578125}
+2018-10-17 17:59:06,146 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,147 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,148 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,149 - fance.log.longger - INFO : 共有69个url，当前执行12个
+2018-10-17 17:59:06,150 - fance.log.longger - INFO : 读取用例名称:提问 - 编辑介绍(接口勿扰),路径:/v1.2/groups/3181285925/introduction,请求方式:data,请求内容 :{'user_introduction': '我就是这么帅'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,151 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,152 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/introduction
+2018-10-17 17:59:06,154 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:06,200 - fance.log.longger - INFO : 请求结果:{'id': '15397703461948', 'result': True, 'msg': '', 'info': {'group': {'user_introduction': '我就是这么帅'}}, 'time': 0.027508974075317383}
+2018-10-17 17:59:06,202 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,205 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,207 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,210 - fance.log.longger - INFO : 共有69个url，当前执行13个
+2018-10-17 17:59:06,213 - fance.log.longger - INFO : 读取用例名称:提问 - 编辑介绍[针对嘉宾],路径:/v1.2/groups/3181285925/users/9553495025/introduction,请求方式:data,请求内容 :{'user_introduction': '他没我帅'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,216 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,218 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/9553495025/introduction
+2018-10-17 17:59:06,221 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:06,261 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '当前用户不是嘉宾', 'info': [], 'id': '15397703462582', 'time': 0.017462968826293945}
+2018-10-17 17:59:06,263 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,265 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:06,267 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:06,270 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:06,272 - fance.log.longger - INFO : 共有69个url，当前执行14个
+2018-10-17 17:59:06,274 - fance.log.longger - INFO : 读取用例名称:评论 - 创建,路径:/v1.2/topics/9332255325/comments,请求方式:data,请求内容 :{'comment_text': '你也没有我帅', 'comment_image': '3062632825'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,277 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,279 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332255325/comments
+2018-10-17 17:59:06,281 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:06,347 - fance.log.longger - INFO : 请求结果:{'id': '15397703463357', 'result': True, 'msg': '', 'info': {'comment': {'id': '3063475425', 'post_time': 1539770346, 'text': '你也没有我帅', 'like_count': 0, 'user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2'}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}}}, 'time': 0.03691411018371582}
+2018-10-17 17:59:06,352 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,357 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,362 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,367 - fance.log.longger - INFO : 共有69个url，当前执行15个
+2018-10-17 17:59:06,371 - fance.log.longger - INFO : 读取用例名称:对评论回复 - 创建,路径:/v1.2/topics/9332255325/comments,请求方式:data,请求内容 :{'comment_text': '真的帅', 'comment_image': '3062632825', 'comment_id': '3058942425'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,375 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,379 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332255325/comments
+2018-10-17 17:59:06,381 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:06,416 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 50002, 'msg': '操作过于频繁,请稍后再试', 'info': [], 'id': '15397703464128', 'time': 0.014803171157836914}
+2018-10-17 17:59:06,417 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,419 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:06,421 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:06,423 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:06,424 - fance.log.longger - INFO : 共有69个url，当前执行16个
+2018-10-17 17:59:06,426 - fance.log.longger - INFO : 读取用例名称:评论 - 删除,路径:/v1.2/topics/9332256625/comments/,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,428 - fance.log.longger - INFO : 1
+2018-10-17 17:59:06,429 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332256625/comments/3063575525
+2018-10-17 17:59:06,431 - fance.log.longger - INFO : 请求方式为:delete
+2018-10-17 17:59:06,464 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 404, 'msg': '无效的评论', 'info': [], 'id': '15397703464621', 'time': 0.013867855072021484}
+2018-10-17 17:59:06,466 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,467 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:06,468 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:06,469 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:06,470 - fance.log.longger - INFO : 共有69个url，当前执行17个
+2018-10-17 17:59:06,471 - fance.log.longger - INFO : 读取用例名称:评论 - 列表(包含回复),路径:/v1.2/topics/9332255325/comments,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,472 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,473 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332255325/comments
+2018-10-17 17:59:06,474 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,581 - fance.log.longger - INFO : 请求结果:{'id': '15397703465775', 'result': True, 'msg': '', 'info': {'total': 11, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': [{'id': '3058942425', 'post_time': '1539412393', 'text': '', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063433325', 'post_time': '1539749257', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063433425', 'post_time': '1539749435', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063439825', 'post_time': '1539750047', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063439925', 'post_time': '1539750103', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063439625', 'post_time': '1539750187', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063465825', 'post_time': '1539763784', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063466125', 'post_time': '1539764017', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063466025', 'post_time': '1539764140', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063467625', 'post_time': '1539765060', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}]}, 'time': 0.08963513374328613}
+2018-10-17 17:59:06,590 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,686 - fance.log.longger - INFO : 请求结果:{'id': '15397703466806', 'result': True, 'msg': '', 'info': {'total': 11, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': [{'id': '3058942425', 'post_time': '1539412393', 'text': '', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063433325', 'post_time': '1539749257', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063433425', 'post_time': '1539749435', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063439825', 'post_time': '1539750047', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063439925', 'post_time': '1539750103', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063439625', 'post_time': '1539750187', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063465825', 'post_time': '1539763784', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063466125', 'post_time': '1539764017', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063466025', 'post_time': '1539764140', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}, {'id': '3063467625', 'post_time': '1539765060', 'text': '你也没有我帅', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}, 'image': {'id': '3062632825', 'mini': 'https://file.fensixingqiu.com/topic/image/1539412387473.png/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'width': '3024', 'height': '4032'}, 'replied_count': 0}]}, 'time': 0.07695698738098145}
+2018-10-17 17:59:06,693 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,694 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,695 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,697 - fance.log.longger - INFO : 共有69个url，当前执行18个
+2018-10-17 17:59:06,698 - fance.log.longger - INFO : 读取用例名称:主题详情,路径:/v1.2/topics/9332255325/,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,699 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,700 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332255325/
+2018-10-17 17:59:06,701 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,749 - fance.log.longger - INFO : 请求结果:{'id': '15397703467472', 'result': True, 'msg': '', 'info': {'id': '9332255325', 'category': '0', 'topic': {'type': '0', 'status': '0', 'text': '发了一个主', 'post_time': '1539412094', 'is_sticky': '0', 'is_digests': '0', 'issue_type': '0'}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'total': 11}, 'pay': {'total': 0, 'pay_users': []}, 'group': {'id': '3181285925', 'name': '改下名字', 'service_mode': '1'}, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'group_policy': {'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}}, 'group_owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_active': True}}, 'time': 0.032273054122924805}
+2018-10-17 17:59:06,751 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,798 - fance.log.longger - INFO : 请求结果:{'id': '15397703467959', 'result': True, 'msg': '', 'info': {'id': '9332255325', 'category': '0', 'topic': {'type': '0', 'status': '0', 'text': '发了一个主', 'post_time': '1539412094', 'is_sticky': '0', 'is_digests': '0', 'issue_type': '0'}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'total': 11}, 'pay': {'total': 0, 'pay_users': []}, 'group': {'id': '3181285925', 'name': '改下名字', 'service_mode': '1'}, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'group_policy': {'allow_clients': {'h5': True, 'mini': True, 'android': True, 'ios': True}}, 'group_owner': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'is_active': True}}, 'time': 0.03169894218444824}
+2018-10-17 17:59:06,801 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,804 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,806 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,808 - fance.log.longger - INFO : 共有69个url，当前执行19个
+2018-10-17 17:59:06,810 - fance.log.longger - INFO : 读取用例名称:评论点赞 - 设置,路径:/v1.2/topics/9332255325/comments/3058942425//likes,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,813 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,815 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332255325/comments/3058942425//likes
+2018-10-17 17:59:06,817 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:06,856 - fance.log.longger - INFO : 请求结果:{'id': '15397703468521', 'result': True, 'msg': '', 'info': {'comment_id': '3058942425'}, 'time': 0.01744699478149414}
+2018-10-17 17:59:06,857 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,858 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,860 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,862 - fance.log.longger - INFO : 共有69个url，当前执行20个
+2018-10-17 17:59:06,864 - fance.log.longger - INFO : 读取用例名称:评论点赞 - 取消,路径:/v1.2/topics/9332255325/comments/3058942425//likes,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,866 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,868 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332255325/comments/3058942425//likes
+2018-10-17 17:59:06,871 - fance.log.longger - INFO : 请求方式为:delete
+2018-10-17 17:59:06,910 - fance.log.longger - INFO : 请求结果:{'id': '15397703469068', 'result': True, 'msg': '', 'info': {'comment_id': '3058942425'}, 'time': 0.01783585548400879}
+2018-10-17 17:59:06,911 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,912 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,914 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,915 - fance.log.longger - INFO : 共有69个url，当前执行21个
+2018-10-17 17:59:06,916 - fance.log.longger - INFO : 读取用例名称:一起讨论 - 获取话题下的主题,路径:/v1.2/groups/3181285925/hashtags/3181549425/topics,请求方式:params,请求内容 :{'limit': '10', 'scope': 'all'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,917 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,919 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/hashtags/3181549425/topics
+2018-10-17 17:59:06,920 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:06,968 - fance.log.longger - INFO : 请求结果:{'id': '15397703469624', 'result': True, 'msg': '', 'info': {'hashtag': {'id': '3181549425', 'title': '这尼玛'}, 'group': {'id': '3181285925', 'name': '改下名字'}, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': [{'id': '9332298725', 'sort_time': '1539749846', 'category': '0', 'topic': {'type': '0', 'status': '0', 'text': '<e type="hashtag" title="这尼玛" hid="3181549425" /> ', 'post_time': '1539749846', 'is_sticky': '0', 'is_digests': '0'}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': True}, 'comment': {'has': False, 'list': [], 'total': 0}}], 'total': 1}, 'time': 0.026234149932861328}
+2018-10-17 17:59:06,973 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:06,976 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:06,978 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:06,981 - fance.log.longger - INFO : 共有69个url，当前执行22个
+2018-10-17 17:59:06,984 - fance.log.longger - INFO : 读取用例名称:获取最近使用的话题,路径:/v1.2/groups/3181285925/hashtags/defaults,请求方式:params,请求内容 :{'scope': 'recent'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:06,986 - fance.log.longger - INFO : 0
+2018-10-17 17:59:06,988 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/hashtags/defaults
+2018-10-17 17:59:06,991 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,026 - fance.log.longger - INFO : 请求结果:{'id': '15397703470233', 'result': True, 'msg': '', 'info': {'list': [{'id': '3181549425', 'title': '这尼玛'}]}, 'time': 0.009984016418457031}
+2018-10-17 17:59:07,027 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,028 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,029 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,030 - fance.log.longger - INFO : 共有69个url，当前执行23个
+2018-10-17 17:59:07,031 - fance.log.longger - INFO : 读取用例名称:评论 - 列表(包含回复)  - 获取单个评论,路径:/v1.2/topics/9332256625/comments/3063574425,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,032 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,033 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332256625/comments/3063574425
+2018-10-17 17:59:07,034 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,083 - fance.log.longger - INFO : 请求结果:{'id': '15397703470716', 'result': True, 'msg': '', 'info': {'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': [{'id': '3063574425', 'post_time': '1539744356', 'text': '回复', 'like_count': '1', 'user': {'id': '9553495425', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'identity': -1, 'name': '帅气的小牛'}, 'current_user': {'is_like': True}, 'replied_count': 0}]}, 'time': 0.022715091705322266}
+2018-10-17 17:59:07,088 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,145 - fance.log.longger - INFO : 请求结果:{'id': '15397703471357', 'result': True, 'msg': '', 'info': {'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': [{'id': '3063574425', 'post_time': '1539744356', 'text': '回复', 'like_count': '1', 'user': {'id': '9553495425', 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'identity': -1, 'name': '帅气的小牛'}, 'current_user': {'is_like': True}, 'replied_count': 0}]}, 'time': 0.023509979248046875}
+2018-10-17 17:59:07,151 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,158 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,161 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,163 - fance.log.longger - INFO : 共有69个url，当前执行24个
+2018-10-17 17:59:07,165 - fance.log.longger - INFO : 读取用例名称:评论 - 评论详情,路径:/v1.2/comments/3063438625,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,167 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,169 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/comments/3063438625
+2018-10-17 17:59:07,170 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,204 - fance.log.longger - INFO : 请求结果:{'id': '15397703472005', 'result': True, 'msg': '', 'info': {'id': '3063438625', 'post_time': '1539746834', 'text': '2772272827278285582853723432327537756735753773755772372323732327372676273277327237322372372372347237373273273223732723732723723732723732237322377322372343244327237273237237237237273372372327237237237237327277227282727828558285372343232753775673575377375577237232373232737267627327732723732237237237234723737327327322373272373272372373272373223732237732237234324432723727323723723723727337237232723723723723732727722728272782855828537234323275377567357537737557723723237323273726762732773272373223723723723472373732732732237327237327237237327237322373223773223723432443272372732372372372372733723723272372372372373272772272827278285582853723432327537756735753773755772372323732327372676273277327237322372372372347237373273273223732723732723723732723732237322377322372343244327237273237237237237273372372327237237237237327277227282727828558285372343232753775673575377375577237232373232737267627327732723732237237237234723737327327322373272373272372373272373223732237732237234324432723727323723723723727', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '0', 'name': '哒哒哒', 'join_time': '1539655425', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}}, 'time': 0.01362299919128418}
+2018-10-17 17:59:07,207 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,247 - fance.log.longger - INFO : 请求结果:{'id': '15397703472383', 'result': True, 'msg': '', 'info': {'id': '3063438625', 'post_time': '1539746834', 'text': '2772272827278285582853723432327537756735753773755772372323732327372676273277327237322372372372347237373273273223732723732723723732723732237322377322372343244327237273237237237237273372372327237237237237327277227282727828558285372343232753775673575377375577237232373232737267627327732723732237237237234723737327327322373272373272372373272373223732237732237234324432723727323723723723727337237232723723723723732727722728272782855828537234323275377567357537737557723723237323273726762732773272373223723723723472373732732732237327237327237237327237322373223773223723432443272372732372372372372733723723272372372372373272772272827278285582853723432327537756735753773755772372323732327372676273277327237322372372372347237373273273223732723732723723732723732237322377322372343244327237273237237237237273372372327237237237237327277227282727828558285372343232753775673575377375577237232373232737267627327732723732237237237234723737327327322373272373272372373272373223732237732237234324432723727323723723723727', 'like_count': '0', 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '0', 'name': '哒哒哒', 'join_time': '1539655425', 'is_guest': False, 'is_black': False}, 'current_user': {'is_like': False}}, 'time': 0.01368403434753418}
+2018-10-17 17:59:07,253 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,258 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,263 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,268 - fance.log.longger - INFO : 共有69个url，当前执行25个
+2018-10-17 17:59:07,274 - fance.log.longger - INFO : 读取用例名称:回复 - 列表,路径:/v1.2/topics/9332256625/comments/3063438625/sub_comments,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,277 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,280 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/topics/9332256625/comments/3063438625/sub_comments
+2018-10-17 17:59:07,285 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,341 - fance.log.longger - INFO : 请求结果:{'id': '15397703473389', 'result': True, 'msg': '', 'info': {'total': 0, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': []}, 'time': 0.019687891006469727}
+2018-10-17 17:59:07,342 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,379 - fance.log.longger - INFO : 请求结果:{'id': '1539770347376', 'result': True, 'msg': '', 'info': {'total': 0, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'list': []}, 'time': 0.019982099533081055}
+2018-10-17 17:59:07,381 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,382 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,383 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,384 - fance.log.longger - INFO : 共有69个url，当前执行26个
+2018-10-17 17:59:07,385 - fance.log.longger - INFO : 读取用例名称:备注 - 设置,路径:/v1.2/users/9553495425/remark,请求方式:data,请求内容 :{'remark': '帅气的小牛'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,386 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,387 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/9553495425/remark
+2018-10-17 17:59:07,388 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:07,429 - fance.log.longger - INFO : 请求结果:{'id': '15397703474231', 'result': True, 'msg': '', 'info': {'user_alias': {'name': '帅气的小牛'}}, 'time': 0.020568132400512695}
+2018-10-17 17:59:07,433 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,436 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,439 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,442 - fance.log.longger - INFO : 共有69个url，当前执行27个
+2018-10-17 17:59:07,445 - fance.log.longger - INFO : 读取用例名称:个人信息 - 我/TA的足迹 - 获取某人用户信息,路径:/v1.2/users/9553495425,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,447 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,450 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/9553495425
+2018-10-17 17:59:07,453 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,496 - fance.log.longger - INFO : 请求结果:{'id': '15397703474897', 'result': True, 'msg': '', 'info': {'id': '9553495425', 'is_self': False, 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'name': '失眠。。', 'remark': '帅气的小牛', 'statistics': {'track_count': 465}}, 'time': 0.017673015594482422}
+2018-10-17 17:59:07,500 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,541 - fance.log.longger - INFO : 请求结果:{'id': '15397703475336', 'result': True, 'msg': '', 'info': {'id': '9553495425', 'is_self': False, 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'name': '失眠。。', 'remark': '帅气的小牛', 'statistics': {'track_count': 465}}, 'time': 0.013653993606567383}
+2018-10-17 17:59:07,546 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,550 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,555 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,559 - fance.log.longger - INFO : 共有69个url，当前执行28个
+2018-10-17 17:59:07,564 - fance.log.longger - INFO : 读取用例名称:星球管理 - 成员加入方式 - 审核,路径:/v1.2/groups/3181285525/examine,请求方式:data,请求内容 :{'need': '1', 'type': '2'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,567 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,572 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285525/examine
+2018-10-17 17:59:07,576 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:07,625 - fance.log.longger - INFO : 请求结果:{'id': '15397703476162', 'result': True, 'msg': '', 'info': {'group_id': '3181285525', 'need_examine': 1, 'examine_type': '2', 'join_question': ''}, 'time': 0.02069401741027832}
+2018-10-17 17:59:07,630 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,635 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,639 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,641 - fance.log.longger - INFO : 共有69个url，当前执行29个
+2018-10-17 17:59:07,644 - fance.log.longger - INFO : 读取用例名称:话题管理 - 获取默认的话题,路径:/v1.2/groups/3181285925/hashtags/defaults,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,646 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,648 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/hashtags/defaults
+2018-10-17 17:59:07,650 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,686 - fance.log.longger - INFO : 请求结果:{'id': '15397703476829', 'result': True, 'msg': '', 'info': {'list': [{'id': '3181519025', 'title': '122'}, {'id': '3181518925', 'title': '1321'}, {'id': '3181549425', 'title': '这尼玛'}, {'id': '3181549525', 'title': '1539750098.2446003'}, {'id': '3181549225', 'title': '1539750181.74306'}, {'id': '3181549325', 'title': '1539763783.899641'}, {'id': '3181548825', 'title': '1539765059.9992468'}]}, 'time': 0.015547990798950195}
+2018-10-17 17:59:07,688 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:07,723 - fance.log.longger - INFO : 请求结果:{'id': '15397703477162', 'result': True, 'msg': '', 'info': {'list': [{'id': '3181519025', 'title': '122'}, {'id': '3181518925', 'title': '1321'}, {'id': '3181549425', 'title': '这尼玛'}, {'id': '3181549525', 'title': '1539750098.2446003'}, {'id': '3181549225', 'title': '1539750181.74306'}, {'id': '3181549325', 'title': '1539763783.899641'}, {'id': '3181548825', 'title': '1539765059.9992468'}]}, 'time': 0.012671947479248047}
+2018-10-17 17:59:07,727 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,731 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,733 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,736 - fance.log.longger - INFO : 共有69个url，当前执行30个
+2018-10-17 17:59:07,740 - fance.log.longger - INFO : 读取用例名称:话题管理 - 创建话题,路径:/v1.2/groups/3181285925/hashtags/defaults,请求方式:data,请求内容 :{'title': '1539770345.313423'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,744 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,747 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/hashtags/defaults
+2018-10-17 17:59:07,750 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:07,806 - fance.log.longger - INFO : 请求结果:{'id': '1539770347799', 'result': True, 'msg': '', 'info': {'hashtag': {'id': '3181548925', 'title': '1539770345.313423'}}, 'time': 0.027493000030517578}
+2018-10-17 17:59:07,811 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,814 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,817 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,819 - fance.log.longger - INFO : 共有69个url，当前执行31个
+2018-10-17 17:59:07,821 - fance.log.longger - INFO : 读取用例名称:话题管理 - 删除话题,路径:/v1.2/groups/3181285925/hashtags/defaults/,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,823 - fance.log.longger - INFO : 1
+2018-10-17 17:59:07,825 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/hashtags/defaults/3181548825
+2018-10-17 17:59:07,827 - fance.log.longger - INFO : 请求方式为:delete
+2018-10-17 17:59:07,872 - fance.log.longger - INFO : 请求结果:{'id': '15397703478675', 'result': True, 'msg': '', 'info': {}, 'time': 0.02154994010925293}
+2018-10-17 17:59:07,874 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,877 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,879 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,881 - fance.log.longger - INFO : 共有69个url，当前执行32个
+2018-10-17 17:59:07,883 - fance.log.longger - INFO : 读取用例名称:动态内显示主题更新 - 开启,路径:/v1.2/groups/3181285925/users/self/notification,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,885 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,887 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/self/notification
+2018-10-17 17:59:07,889 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:07,935 - fance.log.longger - INFO : 请求结果:{'id': '15397703479322', 'result': True, 'msg': '', 'info': {'accept_message_notifications': '1'}, 'time': 0.02460193634033203}
+2018-10-17 17:59:07,936 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,937 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,938 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,939 - fance.log.longger - INFO : 共有69个url，当前执行33个
+2018-10-17 17:59:07,940 - fance.log.longger - INFO : 读取用例名称:动态内显示主题更新 - 关闭,路径:/v1.2/groups/3181285925/users/self/notification,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,941 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,943 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/self/notification
+2018-10-17 17:59:07,943 - fance.log.longger - INFO : 请求方式为:delete
+2018-10-17 17:59:07,987 - fance.log.longger - INFO : 请求结果:{'id': '15397703479844', 'result': True, 'msg': '', 'info': {'accept_message_notifications': '0'}, 'time': 0.026437997817993164}
+2018-10-17 17:59:07,988 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:07,989 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:07,990 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:07,991 - fance.log.longger - INFO : 共有69个url，当前执行34个
+2018-10-17 17:59:07,992 - fance.log.longger - INFO : 读取用例名称:星球资料 - 编辑,路径:/v1.2/groups/3181285925/detail,请求方式:data,请求内容 :{'group_name': '改下名字', 'group_description': '改下资料'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:07,993 - fance.log.longger - INFO : 0
+2018-10-17 17:59:07,994 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/detail
+2018-10-17 17:59:07,995 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,046 - fance.log.longger - INFO : 请求结果:{'id': '15397703480409', 'result': True, 'msg': '', 'info': {'group': {'group_name': '改下名字', 'group_description': '改下资料'}}, 'time': 0.027902841567993164}
+2018-10-17 17:59:08,050 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,053 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,055 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,059 - fance.log.longger - INFO : 共有69个url，当前执行35个
+2018-10-17 17:59:08,061 - fance.log.longger - INFO : 读取用例名称:邀请嘉宾 - 获取嘉宾ID,路径:/v1.2/groups/3181285925/invite,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,062 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,064 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/invite
+2018-10-17 17:59:08,066 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,111 - fance.log.longger - INFO : 请求结果:{'id': '15397703481071', 'result': True, 'msg': '', 'info': {'guest_id': '3058514625'}, 'time': 0.024602890014648438}
+2018-10-17 17:59:08,112 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,146 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 50002, 'msg': '操作过于频繁,请稍后再试', 'info': [], 'id': '15397703481428', 'time': 0.0107269287109375}
+2018-10-17 17:59:08,147 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,149 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:08,150 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:08,151 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:08,152 - fance.log.longger - INFO : 共有69个url，当前执行36个
+2018-10-17 17:59:08,154 - fance.log.longger - INFO : 读取用例名称:星球管理 - 设置相关(关),路径:/v1.2/groups/3181285925/policy,请求方式:data,请求内容 :{'allow_sharing': '1', 'allow_anonymous_question': '1', 'create_topic': '1', 'create_topic_in_day': '1', 'members_visibility': '1'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,155 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,156 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/policy
+2018-10-17 17:59:08,157 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,197 - fance.log.longger - INFO : 请求结果:{'id': '15397703481952', 'result': True, 'msg': '', 'info': {'group': {'allow_sharing': '1', 'allow_anonymous_question': '1', 'create_topic': '1', 'members_visibility': '1', 'create_topic_in_day': '1'}}, 'time': 0.021477937698364258}
+2018-10-17 17:59:08,198 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,199 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,200 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,201 - fance.log.longger - INFO : 共有69个url，当前执行37个
+2018-10-17 17:59:08,203 - fance.log.longger - INFO : 读取用例名称:星球管理 - 设置相关（开）,路径:/v1.2/groups/3181285925/policy,请求方式:data,请求内容 :{'allow_sharing': '1', 'allow_anonymous_question': '1', 'create_topic': '1', 'create_topic_in_day': '1', 'members_visibility': '1'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,204 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,205 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/policy
+2018-10-17 17:59:08,206 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,254 - fance.log.longger - INFO : 请求结果:{'id': '1539770348245', 'result': True, 'msg': '', 'info': {'group': {'allow_sharing': '1', 'allow_anonymous_question': '1', 'create_topic': '1', 'members_visibility': '1', 'create_topic_in_day': '1'}}, 'time': 0.025511980056762695}
+2018-10-17 17:59:08,259 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,264 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,269 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,271 - fance.log.longger - INFO : 共有69个url，当前执行38个
+2018-10-17 17:59:08,272 - fance.log.longger - INFO : 读取用例名称:星球管理 - 成员加入自动回复 - 设置回复内容,路径:/v1.2/groups/3181285925/join_notice,请求方式:data,请求内容 :{'silence_new_member': '1', 'join_notice': '大爷欢迎光临'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,275 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,277 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/join_notice
+2018-10-17 17:59:08,280 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,329 - fance.log.longger - INFO : 请求结果:{'id': '15397703483263', 'result': True, 'msg': '', 'info': {'group': {'silence_new_member': '1', 'join_notice': '大爷欢迎光临'}}, 'time': 0.024487972259521484}
+2018-10-17 17:59:08,330 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,331 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,332 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,333 - fance.log.longger - INFO : 共有69个url，当前执行39个
+2018-10-17 17:59:08,334 - fance.log.longger - INFO : 读取用例名称:星球管理 - 成员加入方式 - 费用相关,路径:/v1.2/groups/3181519625/fee,请求方式:data,请求内容 :{'cost': '100'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,335 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,336 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181519625/fee
+2018-10-17 17:59:08,337 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,386 - fance.log.longger - INFO : 请求结果:{'id': '15397703483832', 'result': True, 'msg': '', 'info': {'group': {'cost': 100}}, 'time': 0.02782607078552246}
+2018-10-17 17:59:08,387 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,388 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,389 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,392 - fance.log.longger - INFO : 共有69个url，当前执行40个
+2018-10-17 17:59:08,394 - fance.log.longger - INFO : 读取用例名称:用户 - 退出星球,路径:/v1.2/groups/3181286225/users/self/quit,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,395 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,398 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286225/users/self/quit
+2018-10-17 17:59:08,400 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,448 - fance.log.longger - INFO : 请求结果:{'id': '15397703484455', 'result': True, 'msg': '', 'info': {'user_id': '9533946325'}, 'time': 0.027747154235839844}
+2018-10-17 17:59:08,450 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,451 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,452 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,453 - fance.log.longger - INFO : 共有69个url，当前执行41个
+2018-10-17 17:59:08,454 - fance.log.longger - INFO : 读取用例名称:个人信息 - 编辑,路径:/v1.2/users/self,请求方式:data,请求内容 :{'user_name': '哒哒哒', 'avatar_id': '3062632825'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,455 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,456 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/self
+2018-10-17 17:59:08,457 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,497 - fance.log.longger - INFO : 请求结果:{'id': '15397703484945', 'result': True, 'msg': '', 'info': {'user': {'user_name': '哒哒哒', 'user_avatar_url': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}}, 'time': 0.023641109466552734}
+2018-10-17 17:59:08,498 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,499 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,500 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,501 - fance.log.longger - INFO : 共有69个url，当前执行42个
+2018-10-17 17:59:08,502 - fance.log.longger - INFO : 读取用例名称:个人信息 - 设置 - 获取推送信息,路径:/v1.2/users/push,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,503 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,504 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/push
+2018-10-17 17:59:08,505 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,535 - fance.log.longger - INFO : 请求结果:{'id': '15397703485331', 'result': True, 'msg': '', 'info': {'push': {'alias': 'userId_9533946325', 'tags': ['groupId_3181828625', 'groupId_3181995125', 'groupId_3181994825', 'groupId_3181995625', 'groupId_3181347925', 'groupId_3181995425', 'groupId_3181345425', 'groupId_3181986025', 'groupId_3181995025', 'groupId_3181984825', 'groupId_3181986325', 'groupId_3181275925', 'groupId_3181984625', 'groupId_3181277825', 'groupId_3181284925', 'groupId_3181985325', 'groupId_3181284425', 'groupId_3181995325', 'groupId_3181285525', 'groupId_3181986525', 'groupId_3181276525', 'groupId_3181285625', 'groupId_3181285325', 'groupId_3181284725', 'groupId_3181985225', 'groupId_3181276425', 'groupId_3181276325', 'groupId_3181285925', 'groupId_3181508325', 'groupId_3181508125', 'groupId_3181508725', 'groupId_3181519625', 'groupId_3181286325', 'groupId_3181518125', 'groupId_3181518025', 'groupId_3181518725', 'groupId_3181518525', 'groupId_3181518425', 'groupId_3181519125', 'groupId_3181286125'], 'status': '3'}}, 'time': 0.01194310188293457}
+2018-10-17 17:59:08,537 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,564 - fance.log.longger - INFO : 请求结果:{'id': '15397703485616', 'result': True, 'msg': '', 'info': {'push': {'alias': 'userId_9533946325', 'tags': ['groupId_3181828625', 'groupId_3181995125', 'groupId_3181994825', 'groupId_3181995625', 'groupId_3181347925', 'groupId_3181995425', 'groupId_3181345425', 'groupId_3181986025', 'groupId_3181995025', 'groupId_3181984825', 'groupId_3181986325', 'groupId_3181275925', 'groupId_3181984625', 'groupId_3181277825', 'groupId_3181284925', 'groupId_3181985325', 'groupId_3181284425', 'groupId_3181995325', 'groupId_3181285525', 'groupId_3181986525', 'groupId_3181276525', 'groupId_3181285625', 'groupId_3181285325', 'groupId_3181284725', 'groupId_3181985225', 'groupId_3181276425', 'groupId_3181276325', 'groupId_3181285925', 'groupId_3181508325', 'groupId_3181508125', 'groupId_3181508725', 'groupId_3181519625', 'groupId_3181286325', 'groupId_3181518125', 'groupId_3181518025', 'groupId_3181518725', 'groupId_3181518525', 'groupId_3181518425', 'groupId_3181519125', 'groupId_3181286125'], 'status': '3'}}, 'time': 0.009480953216552734}
+2018-10-17 17:59:08,566 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,567 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,568 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,570 - fance.log.longger - INFO : 共有69个url，当前执行43个
+2018-10-17 17:59:08,571 - fance.log.longger - INFO : 读取用例名称:个人信息 - 设置 - 设置推送信息,路径:/v1.2/users/push,请求方式:data,请求内容 :{'push_status': '随便输入？'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,572 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,574 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/push
+2018-10-17 17:59:08,575 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:08,600 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 40009, 'msg': '输入的参数未在指定范围', 'info': {'param': 'push_status', 'limit': '1,2,3'}, 'id': '15397703485966', 'time': 0.004850864410400391}
+2018-10-17 17:59:08,601 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,603 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:08,604 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:08,605 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:08,606 - fance.log.longger - INFO : 共有69个url，当前执行44个
+2018-10-17 17:59:08,607 - fance.log.longger - INFO : 读取用例名称:个人信息 - 获取个人详情,路径:/v1.2/users/self,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,610 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,611 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/self
+2018-10-17 17:59:08,613 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,647 - fance.log.longger - INFO : 请求结果:{'id': '15397703486457', 'result': True, 'msg': '', 'info': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'name': '哒哒哒', 'mobile': '15015186632', 'default_group': {'id': '3181828625'}, 'statistics': {'track_count': 92, 'favors_count': 0, 'groups_count': 40}, 'money': 9680, 'apple_balance': 0, 'weixin': {'subscribe': True}}, 'time': 0.018182992935180664}
+2018-10-17 17:59:08,649 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,684 - fance.log.longger - INFO : 请求结果:{'id': '15397703486813', 'result': True, 'msg': '', 'info': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'name': '哒哒哒', 'mobile': '15015186632', 'default_group': {'id': '3181828625'}, 'statistics': {'track_count': 92, 'favors_count': 0, 'groups_count': 40}, 'money': 9680, 'apple_balance': 0, 'weixin': {'subscribe': True}}, 'time': 0.016438007354736328}
+2018-10-17 17:59:08,685 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,686 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,687 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,687 - fance.log.longger - INFO : 共有69个url，当前执行45个
+2018-10-17 17:59:08,688 - fance.log.longger - INFO : 读取用例名称:个人信息 - 我/TA的足迹 - 获取某人用户信息,路径:/v1.2/users/9553495425,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,689 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,690 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/9553495425
+2018-10-17 17:59:08,692 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,725 - fance.log.longger - INFO : 请求结果:{'id': '15397703487224', 'result': True, 'msg': '', 'info': {'id': '9553495425', 'is_self': False, 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'name': '失眠。。', 'remark': '帅气的小牛', 'statistics': {'track_count': 465}}, 'time': 0.01529693603515625}
+2018-10-17 17:59:08,726 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,756 - fance.log.longger - INFO : 请求结果:{'id': '15397703487534', 'result': True, 'msg': '', 'info': {'id': '9553495425', 'is_self': False, 'avatar': 'https://file.fensixingqiu.com/avatar/9553495425_28745687326862.png', 'name': '失眠。。', 'remark': '帅气的小牛', 'statistics': {'track_count': 465}}, 'time': 0.013479948043823242}
+2018-10-17 17:59:08,757 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,759 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,760 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,761 - fance.log.longger - INFO : 共有69个url，当前执行46个
+2018-10-17 17:59:08,762 - fance.log.longger - INFO : 读取用例名称:我的-钱包-余额统计,路径:/v1.2/users/account,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,763 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,764 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/account
+2018-10-17 17:59:08,765 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,791 - fance.log.longger - INFO : 请求结果:{'id': '15397703487888', 'result': True, 'msg': '', 'info': {'unset_amount': '3410', 'set_amount': '7790', 'all_amount': 11200, 'today_withdraw': True}, 'time': 0.010375022888183594}
+2018-10-17 17:59:08,793 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,822 - fance.log.longger - INFO : 请求结果:{'id': '15397703488184', 'result': True, 'msg': '', 'info': {'unset_amount': '3410', 'set_amount': '7790', 'all_amount': 11200, 'today_withdraw': True}, 'time': 0.010680913925170898}
+2018-10-17 17:59:08,824 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,827 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,829 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,831 - fance.log.longger - INFO : 共有69个url，当前执行47个
+2018-10-17 17:59:08,834 - fance.log.longger - INFO : 读取用例名称:我的-钱包-提现,路径:/v1.2/users/account/withdraw,请求方式:data,请求内容 :{'money': '100'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,836 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,838 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/account/withdraw
+2018-10-17 17:59:08,840 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:08,862 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 41001, 'msg': '每天只能提现一次', 'info': [], 'id': '153977034886', 'time': 0.00487208366394043}
+2018-10-17 17:59:08,863 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,865 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:08,866 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:08,867 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:08,868 - fance.log.longger - INFO : 共有69个url，当前执行48个
+2018-10-17 17:59:08,870 - fance.log.longger - INFO : 读取用例名称:我的-钱包-明细列表,路径:/v1.2/users/paymentlogs,请求方式:params,请求内容 :{'count': '20'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,871 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,872 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/paymentlogs
+2018-10-17 17:59:08,874 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,900 - fance.log.longger - INFO : 请求结果:{'id': '1539770348897', 'result': True, 'msg': '', 'info': {'list': [{'record_id': '3063474525', 'record_sn': '33419520181017160947052876', 'remark': '提现', 'add_time': '1539763787', 'change_type': '0', 'total_fee': '100'}, {'record_id': '3063577425', 'record_sn': '15394198078546', 'remark': '收到 Gregary 加入「123456」的费用30.00元，粉丝星球收取手续费1.50元，Apple收取内购费用9.60元', 'add_time': '1539419807', 'change_type': '1', 'total_fee': '1890'}, {'record_id': '3063576725', 'record_sn': '15394150266382', 'remark': '收到 失眠。。 加入「123456」的费用30.00元，粉丝星球收取手续费1.50元', 'add_time': '1539415026', 'change_type': '1', 'total_fee': '2850'}, {'record_id': '3058943225', 'record_sn': '43897320181012110955692422', 'remark': '提现失败，金额返还', 'add_time': '1539313795', 'change_type': '1', 'total_fee': '1000'}, {'record_id': '3058943125', 'record_sn': '66208020181012110505127361', 'remark': '提现', 'add_time': '1539313505', 'change_type': '0', 'total_fee': '1000'}, {'record_id': '3058472725', 'record_sn': '15383229093206', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322909', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058472625', 'record_sn': '15383229059626', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322905', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058472525', 'record_sn': '15383228970075', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322897', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058479125', 'record_sn': '153832289562', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322895', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058479025', 'record_sn': '15383228937875', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322893', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058478925', 'record_sn': '15383228920718', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322892', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058478825', 'record_sn': '15383228821601', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322882', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058479525', 'record_sn': '15383228772815', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322877', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058479425', 'record_sn': '15383228749547', 'remark': '「56434...」收到小We服务打赏的费用8.88元，粉丝星球收取手续费0.44元，Apple收取内购费用2.84元', 'add_time': '1538322874', 'change_type': '1', 'total_fee': '560'}, {'record_id': '3058506725', 'record_sn': '15382918941937', 'remark': '加入「续费000」支付0.01元', 'add_time': '1538291894', 'change_type': '0', 'total_fee': '1'}, {'record_id': '3181448425', 'record_sn': '15382787699068', 'remark': '加入「007不用验证」支付0.01元', 'add_time': '1538278769', 'change_type': '0', 'total_fee': '1'}, {'record_id': '3181442925', 'record_sn': '15382754543238', 'remark': '加入「跳跳跳」支付0.01元', 'add_time': '1538275454', 'change_type': '0', 'total_fee': '1'}, {'record_id': '3181558425', 'record_sn': '15382376867149', 'remark': '加入「010」支付0.01元', 'add_time': '1538237686', 'change_type': '0', 'total_fee': '1'}, {'record_id': '3181558825', 'record_sn': '15382368913353', 'remark': '加入「010」支付0.01元', 'add_time': '1538236891', 'change_type': '0', 'total_fee': '1'}, {'record_id': '3181559025', 'record_sn': '15382368123809', 'remark': '加入「010」支付0.01元', 'add_time': '1538236812', 'change_type': '0', 'total_fee': '1'}]}, 'time': 0.00876307487487793}
+2018-10-17 17:59:08,908 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,909 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,911 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,912 - fance.log.longger - INFO : 共有69个url，当前执行49个
+2018-10-17 17:59:08,913 - fance.log.longger - INFO : 读取用例名称:我的-钱包-明细-详细信息,路径:/v1.2/users/paymentlogs/info,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,915 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,916 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/users/paymentlogs/info
+2018-10-17 17:59:08,917 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,939 - fance.log.longger - INFO : 请求结果:{'id': '15397703489376', 'result': True, 'msg': '', 'info': {}, 'time': 0.0043010711669921875}
+2018-10-17 17:59:08,941 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:08,965 - fance.log.longger - INFO : 请求结果:{'id': '15397703489591', 'result': True, 'msg': '', 'info': {}, 'time': 0.003805875778198242}
+2018-10-17 17:59:08,969 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:08,972 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:08,977 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:08,980 - fance.log.longger - INFO : 共有69个url，当前执行50个
+2018-10-17 17:59:08,985 - fance.log.longger - INFO : 读取用例名称:微信分享jssdk,路径:/v1.2/auth/jssdk,请求方式:params,请求内容 :{'url': 'https%253A%252F%252Ftestw.fensixingqiu.com%252Fdist%252Fstar%252Fpost_detail%253Ftopic_id%253D9332298525%2526group_id%253D3181519125%2526star%253Dtrue'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:08,989 - fance.log.longger - INFO : 0
+2018-10-17 17:59:08,990 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/auth/jssdk
+2018-10-17 17:59:08,992 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,016 - fance.log.longger - INFO : 请求结果:{'id': '1539770349013', 'result': True, 'msg': '', 'info': {'appId': 'wx4459a4f9da3f73cc', 'nonceStr': 'OxATawDQixGQQzVR', 'timestamp': 1539770349, 'url': 'https%253A%252F%252Ftestw.fensixingqiu.com%252Fdist%252Fstar%252Fpost_detail%253Ftopic_id%253D9332298525%2526group_id%253D3181519125%2526star%253Dtrue', 'rawString': 'jsapi_ticket=HoagFKDcsGMVCIY2vOjf9mJ54tu3DO7wvRMmqV_U5stpH1sx63kA90_YUlZ1HIBoDqwg7XdVL81L1xrKynXtrA&noncestr=OxATawDQixGQQzVR&timestamp=1539770349&url=https%253A%252F%252Ftestw.fensixingqiu.com%252Fdist%252Fstar%252Fpost_detail%253Ftopic_id%253D9332298525%2526group_id%253D3181519125%2526star%253Dtrue', 'signature': '6b18ca4e7cb3581c8a00ce6777dcdc0ba687fcca'}, 'time': 0.0036890506744384766}
+2018-10-17 17:59:09,018 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,019 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,019 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,021 - fance.log.longger - INFO : 共有69个url，当前执行51个
+2018-10-17 17:59:09,022 - fance.log.longger - INFO : 读取用例名称:获取分享链接域名,路径:/v1.2/auth/share,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,024 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,025 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/auth/share
+2018-10-17 17:59:09,027 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,048 - fance.log.longger - INFO : 请求结果:{'id': '15397703490456', 'result': True, 'msg': '', 'info': {'url': 'https://w.fensixingqiu.com'}, 'time': 0.0022840499877929688}
+2018-10-17 17:59:09,050 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,068 - fance.log.longger - INFO : 请求结果:{'id': '15397703490664', 'result': True, 'msg': '', 'info': {'url': 'https://w.fensixingqiu.com'}, 'time': 0.0022521018981933594}
+2018-10-17 17:59:09,070 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,071 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,073 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,074 - fance.log.longger - INFO : 共有69个url，当前执行52个
+2018-10-17 17:59:09,076 - fance.log.longger - INFO : 读取用例名称:嘉宾邀请 - 基于游客的预览成员（嘉宾邀请页面）,路径:/v1.2/groups/3181285925/users/preview_for_visitor,请求方式:params,请求内容 :{'scope': 'with_guest'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,077 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,078 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/preview_for_visitor
+2018-10-17 17:59:09,080 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,118 - fance.log.longger - INFO : 请求结果:{'id': '15397703491124', 'result': True, 'msg': '', 'info': {'guest': {'is_valid_link': False}, 'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False, 'is_member': True}, 'group_owner': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'group': {'id': '3181285925', 'name': '改下名字', 'sn': '89350335', 'description': '改下资料'}, 'total': 2, 'list': [{'id': '9553495025', 'avatar': 'https://file.fensixingqiu.com/portrait/72d9c1852f6c376f23fa762f620f4308', 'identity': '0', 'name': '牛牛（这头牛）', 'join_time': '1539749637', 'is_guest': False, 'is_black': False}]}, 'time': 0.018507003784179688}
+2018-10-17 17:59:09,123 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,127 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,131 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,134 - fance.log.longger - INFO : 共有69个url，当前执行53个
+2018-10-17 17:59:09,138 - fance.log.longger - INFO : 读取用例名称:嘉宾邀请 - 接受邀请,路径:/v1.2/groups/3181286225/join_with_guest,请求方式:data,请求内容 :{'guest_id': '9553495425'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,140 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,141 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181286225/join_with_guest
+2018-10-17 17:59:09,143 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:09,177 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '链接已失效', 'info': [], 'id': '15397703491744', 'time': 0.01573491096496582}
+2018-10-17 17:59:09,178 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,179 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:09,180 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:09,181 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:09,182 - fance.log.longger - INFO : 共有69个url，当前执行54个
+2018-10-17 17:59:09,183 - fance.log.longger - INFO : 读取用例名称:获取最近使用的话题,路径:/v1.2/groups/3181285925/hashtags/defaults?scope=recent,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,184 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,185 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/hashtags/defaults?scope=recent
+2018-10-17 17:59:09,185 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,216 - fance.log.longger - INFO : 请求结果:{'id': '15397703492122', 'result': True, 'msg': '', 'info': {'list': [{'id': '3181549425', 'title': '这尼玛'}]}, 'time': 0.01026010513305664}
+2018-10-17 17:59:09,217 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,244 - fance.log.longger - INFO : 请求结果:{'id': '15397703492415', 'result': True, 'msg': '', 'info': {'list': [{'id': '3181549425', 'title': '这尼玛'}]}, 'time': 0.009502172470092773}
+2018-10-17 17:59:09,246 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,247 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,248 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,249 - fance.log.longger - INFO : 共有69个url，当前执行55个
+2018-10-17 17:59:09,250 - fance.log.longger - INFO : 读取用例名称:版本信息获取接口,路径:/v1.2/versions,请求方式:params,请求内容 :{'type': '3'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,251 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,252 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/versions
+2018-10-17 17:59:09,253 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,277 - fance.log.longger - INFO : 请求结果:{'id': '15397703492749', 'result': True, 'msg': '', 'info': {'content': '1，界面调整\n2，上传视频', 'downloadUrl': 'http://www.baidu.com', 'isForceUpdate': False, 'minVersionCode': 0, 'operatingSystem': '华为10.1', 'remark': '备注', 'title': '版本更新', 'version': 'V1.1.0', 'versionCode': 0}, 'time': 0.005497932434082031}
+2018-10-17 17:59:09,278 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,280 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,281 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,282 - fance.log.longger - INFO : 共有69个url，当前执行56个
+2018-10-17 17:59:09,284 - fance.log.longger - INFO : 读取用例名称:置顶 - 取消,路径:/v1.2/groups/3181285925/topics/9332298725/cancel_sticky,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,285 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,286 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/9332298725/cancel_sticky
+2018-10-17 17:59:09,287 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:09,314 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '该主题已取消置顶，请不要重复操作', 'info': [], 'id': '15397703493126', 'time': 0.01110696792602539}
+2018-10-17 17:59:09,315 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,316 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:09,317 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:09,318 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:09,319 - fance.log.longger - INFO : 共有69个url，当前执行57个
+2018-10-17 17:59:09,320 - fance.log.longger - INFO : 读取用例名称:置顶 - 设置,路径:/v1.2/groups/3181285925/topics/9332298725/set_sticky,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,321 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,322 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/9332298725/set_sticky
+2018-10-17 17:59:09,323 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:09,377 - fance.log.longger - INFO : 请求结果:{'id': '15397703493708', 'result': True, 'msg': '', 'info': {'topic_id': '9332298725'}, 'time': 0.03260517120361328}
+2018-10-17 17:59:09,380 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,383 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,386 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,388 - fance.log.longger - INFO : 共有69个url，当前执行58个
+2018-10-17 17:59:09,392 - fance.log.longger - INFO : 读取用例名称:收藏 - 设置,路径:/v1.2/groups/3181285925/topics/9332298725/set_favorite,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,395 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,396 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/9332298725/set_favorite
+2018-10-17 17:59:09,399 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:09,442 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '无效操作，该话题您已经收藏过，请不要重复操作', 'info': [], 'id': '15397703494382', 'time': 0.01687002182006836}
+2018-10-17 17:59:09,446 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,449 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:09,452 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:09,454 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:09,457 - fance.log.longger - INFO : 共有69个url，当前执行59个
+2018-10-17 17:59:09,459 - fance.log.longger - INFO : 读取用例名称:收藏 - 取消,路径:/v1.2/groups/3181285925/topics/9332298725/cancel_favorite,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,462 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,464 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/9332298725/cancel_favorite
+2018-10-17 17:59:09,467 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:09,511 - fance.log.longger - INFO : 请求结果:{'id': '15397703495057', 'result': True, 'msg': '', 'info': {'topic_id': '9332298725'}, 'time': 0.023320913314819336}
+2018-10-17 17:59:09,514 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,516 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,519 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,521 - fance.log.longger - INFO : 共有69个url，当前执行60个
+2018-10-17 17:59:09,524 - fance.log.longger - INFO : 读取用例名称:创建主题 - 普通,路径:/v1.2/groups/3181285925/topics,请求方式:data,请求内容 :{'type': 'talk', 'topic_images': '3062935425', 'topic_text': '帅不帅'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,527 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,529 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics
+2018-10-17 17:59:09,531 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:09,582 - fance.log.longger - INFO : 请求结果:{'id': '15397703495786', 'result': True, 'msg': '', 'info': {'topic_id': '9332498525'}, 'time': 0.033286094665527344}
+2018-10-17 17:59:09,584 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,585 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,586 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,588 - fance.log.longger - INFO : 共有69个url，当前执行61个
+2018-10-17 17:59:09,588 - fance.log.longger - INFO : 读取用例名称:创建主题 - 提问,路径:/v1.2/groups/3181985225/topics/question,请求方式:data,请求内容 :{'topic_text': '这是一个萌萌哒的提问', 'topic_images': '3062935425', 'questionee_id': '9553495425'},请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,589 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,591 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181985225/topics/question
+2018-10-17 17:59:09,592 - fance.log.longger - INFO : 请求方式为:post,参数为data
+2018-10-17 17:59:09,653 - fance.log.longger - INFO : 请求结果:{'id': '15397703496469', 'result': True, 'msg': '', 'info': {'topic_id': '9332498425'}, 'time': 0.036720991134643555}
+2018-10-17 17:59:09,657 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,661 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,665 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,669 - fance.log.longger - INFO : 共有69个url，当前执行62个
+2018-10-17 17:59:09,672 - fance.log.longger - INFO : 读取用例名称:精华 - 设置,路径:/v1.2/groups/3181285925/topics/9332298725/set_digests,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,676 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,679 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/9332298725/set_digests
+2018-10-17 17:59:09,680 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:09,735 - fance.log.longger - INFO : 请求结果:{'id': '1539770349732', 'result': True, 'msg': '', 'info': {'topic_id': '9332298725'}, 'time': 0.0357060432434082}
+2018-10-17 17:59:09,736 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,738 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,739 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,740 - fance.log.longger - INFO : 共有69个url，当前执行63个
+2018-10-17 17:59:09,742 - fance.log.longger - INFO : 读取用例名称:获取主题列表 - 预览,路径:/v1.2/groups/3181285925/topics/preview,请求方式:params,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,743 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,745 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/preview
+2018-10-17 17:59:09,746 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,814 - fance.log.longger - INFO : 请求结果:{'id': '15397703498105', 'result': True, 'msg': '', 'info': {'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'group': {'group_id': '256', 'group_no': '89350335', 'group_name': '改下名字', 'group_description': '改下资料', 'create_time': '1539403339', 'update_time': '1539403339', 'background_url': None, 'group_type': '0', 'enable': '1', 'user_id': '4549', 'cost': '0', 'valid_time': '0', 'category_id': '0', 'discounted_percentage': '100', 'service_mode': '1', 'valid_month': '12', 'image_id': '0', 'cover_id': '1530', 'cover_color': '#ffffff', 'group_level': '1', 'group_status': '1', 'group_trialed': '0'}, 'list': [{'id': '9332298725', 'sort_time': '1539749846', 'category': '0', 'topic': {'type': '0', 'status': '0', 'text': '<e type="hashtag" title="这尼玛" hid="3181549425" /> ', 'post_time': '1539749846', 'is_sticky': '1', 'is_digests': '1'}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}, {'id': '9332498525', 'sort_time': '1539770349', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539770349', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}, {'id': '9332482025', 'sort_time': '1539765064', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539765064', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': True, 'like_users': [{'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}], 'total': 1}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}, {'id': '9332489625', 'sort_time': '1539764143', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539764143', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': True, 'list': [{'id': '3063474325', 'post_time': '1539766774', 'text': 'pe', 'like_count': '0', 'user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2'}}], 'total': 1}}, {'id': '9332489825', 'sort_time': '1539764020', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539764020', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}], 'total': 5}, 'time': 0.0490269660949707}
+2018-10-17 17:59:09,821 - fance.log.longger - INFO : 请求方式为:get
+2018-10-17 17:59:09,871 - fance.log.longger - INFO : 请求结果:{'id': '1539770349868', 'result': True, 'msg': '', 'info': {'current_user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'group': {'group_id': '256', 'group_no': '89350335', 'group_name': '改下名字', 'group_description': '改下资料', 'create_time': '1539403339', 'update_time': '1539403339', 'background_url': None, 'group_type': '0', 'enable': '1', 'user_id': '4549', 'cost': '0', 'valid_time': '0', 'category_id': '0', 'discounted_percentage': '100', 'service_mode': '1', 'valid_month': '12', 'image_id': '0', 'cover_id': '1530', 'cover_color': '#ffffff', 'group_level': '1', 'group_status': '1', 'group_trialed': '0'}, 'list': [{'id': '9332298725', 'sort_time': '1539749846', 'category': '0', 'topic': {'type': '0', 'status': '0', 'text': '<e type="hashtag" title="这尼玛" hid="3181549425" /> ', 'post_time': '1539749846', 'is_sticky': '1', 'is_digests': '1'}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}, {'id': '9332498525', 'sort_time': '1539770349', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539770349', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}, {'id': '9332482025', 'sort_time': '1539765064', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539765064', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': True, 'like_users': [{'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png'}], 'total': 1}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}, {'id': '9332489625', 'sort_time': '1539764143', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539764143', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': True, 'list': [{'id': '3063474325', 'post_time': '1539766774', 'text': 'pe', 'like_count': '0', 'user': {'id': '9533946325', 'name': '哒哒哒', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2'}}], 'total': 1}}, {'id': '9332489825', 'sort_time': '1539764020', 'category': '0', 'topic': {'type': '1', 'status': '0', 'text': '帅不帅', 'post_time': '1539764020', 'is_sticky': '0', 'is_digests': '0', 'images': [{'id': '3062935425', 'mini': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg/mini', 'preview': 'https://file.fensixingqiu.com/topic/image/1539761155142.jpeg', 'width': '3024', 'height': '4032'}]}, 'user': {'id': '9533946325', 'avatar': 'https://file.fensixingqiu.com/topic/image/1539412387473.png', 'identity': '2', 'name': '哒哒哒', 'join_time': '1539403339', 'is_guest': False, 'is_black': False}, 'like': {'has': False, 'like_users': [], 'total': 0}, 'favorite': {'has': False}, 'comment': {'has': False, 'list': [], 'total': 0}}], 'total': 5}, 'time': 0.03259086608886719}
+2018-10-17 17:59:09,877 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,878 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,879 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,880 - fance.log.longger - INFO : 共有69个url，当前执行64个
+2018-10-17 17:59:09,881 - fance.log.longger - INFO : 读取用例名称:精华 - 取消,路径:/v1.2/groups/3181285925/topics/9332298725/cancel_digests,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,882 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,883 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/topics/9332298725/cancel_digests
+2018-10-17 17:59:09,884 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:09,967 - fance.log.longger - INFO : 请求结果:{'id': '15397703499411', 'result': True, 'msg': '', 'info': {'topic_id': '9332298725'}, 'time': 0.061254024505615234}
+2018-10-17 17:59:09,971 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:09,974 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:09,976 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:09,979 - fance.log.longger - INFO : 共有69个url，当前执行65个
+2018-10-17 17:59:09,981 - fance.log.longger - INFO : 读取用例名称:管理员 - 取消,路径:/v1.2/groups/3181285925/users/9553495025/cancel_manager,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:09,983 - fance.log.longger - INFO : 0
+2018-10-17 17:59:09,984 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/9553495025/cancel_manager
+2018-10-17 17:59:09,986 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:10,022 - fance.log.longger - INFO : 请求结果:{'result': False, 'error': 400, 'msg': '操作无效，该用户不是管理员身份', 'info': [], 'id': '15397703500186', 'time': 0.01538395881652832}
+2018-10-17 17:59:10,023 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:10,025 - fance.log.longger - INFO : 实际结果为:False
+2018-10-17 17:59:10,026 - fance.log.longger - INFO : 断言结果错误
+2018-10-17 17:59:10,028 - fance.log.longger - INFO : 写入提示信息
+2018-10-17 17:59:10,030 - fance.log.longger - INFO : 共有69个url，当前执行66个
+2018-10-17 17:59:10,031 - fance.log.longger - INFO : 读取用例名称:管理员 - 设置,路径:/v1.2/groups/3181285925/users/9553495025/set_manager,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:10,033 - fance.log.longger - INFO : 0
+2018-10-17 17:59:10,034 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/9553495025/set_manager
+2018-10-17 17:59:10,036 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:10,089 - fance.log.longger - INFO : 请求结果:{'id': '15397703500825', 'result': True, 'msg': '', 'info': {'user_id': '9553495025'}, 'time': 0.03087019920349121}
+2018-10-17 17:59:10,094 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:10,097 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:10,100 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:10,102 - fance.log.longger - INFO : 共有69个url，当前执行67个
+2018-10-17 17:59:10,104 - fance.log.longger - INFO : 读取用例名称:黑名单 - 设置,路径:/v1.2/groups/3181285925/users/9553495025/set_black,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:10,106 - fance.log.longger - INFO : 0
+2018-10-17 17:59:10,108 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/9553495025/set_black
+2018-10-17 17:59:10,110 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:10,161 - fance.log.longger - INFO : 请求结果:{'id': '15397703501527', 'result': True, 'msg': '', 'info': {'user_id': '9553495025'}, 'time': 0.026076793670654297}
+2018-10-17 17:59:10,167 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:10,172 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:10,177 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:10,181 - fance.log.longger - INFO : 共有69个url，当前执行68个
+2018-10-17 17:59:10,186 - fance.log.longger - INFO : 读取用例名称:黑名单 - 取消,路径:/v1.2/groups/3181285925/users/9553495025/cancel_black,请求方式:data,请求内容 :None,请求头:{'token': '91831e20da0fe5f97a38f601b377ed64'}
+2018-10-17 17:59:10,189 - fance.log.longger - INFO : 0
+2018-10-17 17:59:10,191 - fance.log.longger - INFO : url:http://testa.fensixingqiu.com/v1.2/groups/3181285925/users/9553495025/cancel_black
+2018-10-17 17:59:10,193 - fance.log.longger - INFO : 请求方式为:put,参数为data
+2018-10-17 17:59:10,241 - fance.log.longger - INFO : 请求结果:{'id': '1539770350234', 'result': True, 'msg': '', 'info': {'user_id': '9553495025'}, 'time': 0.023621797561645508}
+2018-10-17 17:59:10,243 - fance.log.longger - INFO : 预期结果为:1
+2018-10-17 17:59:10,245 - fance.log.longger - INFO : 实际结果为:True
+2018-10-17 17:59:10,247 - fance.log.longger - INFO : 断言结果正确
+2018-10-17 17:59:10,249 - fance.log.longger - INFO : 共有69个url，当前执行69个
+2018-10-17 17:59:10,256 - fance.log.longger - INFO : 复制数据文件
+2018-10-17 17:59:10,258 - fance.log.longger - INFO : 获取文件表单
+2018-10-17 17:59:10,259 - fance.log.longger - INFO : 开始准备写入结果：....
+2018-10-17 17:59:13,531 - fance.log.longger - INFO : 结果写入完毕
